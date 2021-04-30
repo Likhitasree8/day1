@@ -3,37 +3,48 @@
 <title> Registration Form </title>
 <link rel="stylesheet"
 href="mystyle.css"type="text/css">
+<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-eOJMYsd53ii+scO/bJGFsiCZc+5NDVN2yr8+0RDqr0Ql0h+rP48ckxlpbzKgwra6" crossorigin="anonymous">
+<script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.1/dist/umd/popper.min.js" integrity="sha384-SR1sx49pcuLnqZUnnPwx6FCym0wLsk5JZuNx2bPPENzswTNFaQU1RDvt3wT4gWFG" crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta3/dist/js/bootstrap.min.js" integrity="sha384-j0CNLUeiqtyaRmlzUHCPZ+Gy5fQu0dQ6eZ/xAww941Ai1SxSY+0EQqNXNE6DZiVc" crossorigin="anonymous"></script>
+    
 </head>
-<body style="background-color:powderblue;">
+<body>
+    <center>
 <div class="main">
 <div class="register">
 <h2 align="center">Registration Form </h2>
 <form id="register" method="post">
+<!--first name-->
 <label>First name:</label>   <br><br>
 <input type="text" name="fname" id="name" placeholder="Enter your First Name">
 <br><br>
+<!--last name-->
 <label>Last name:</label>
 <br><br>
 <input type="text" name="lname" id="name" placeholder="Enter your Last Name">
 <br><br>
+<!--age-->
 <label>Your Age: </label>
 <br><br>
 <input type="number" name="age" id="name" placeholder="Your age?">
 <br><br>
+<!--email-->
 <label>Email:</label>
 <br><br>
 <input type="email"name="email" id="name" placeholder="Enter Your Email">
 <br><br>
-Address:<br><textarea cols="30" rows="15" value="address"></textarea>
+<!--address-->
+<label>Address:</label><br><textarea cols="40" rows="15" value="address"></textarea>
 <br><br><br>
-
+<!--aadhar-->
 <label>Aadhar Number:</label>
 <br><br>
-<input type="text" name="Aadhar" id="number" placeholder="Enter Aadhar Number">
-<br><br><br>
-
+<input type="text" name="Aadhar" id="name" placeholder="Enter Aadhar Number">
+<br><br>
+<!--date of birth-->
 <label>Date Of Birth: </label><br><br>
 <input type="date"/><br><br><br>
+<!--gender-->
 <label>Gender:</label>
 <br><br>
 &nbsp;
@@ -48,29 +59,32 @@ Address:<br><textarea cols="30" rows="15" value="address"></textarea>
 &nbsp;
 <span id="Others">Others</span>
 &nbsp;
-<br><br><br>
-
-
+<br><br>
+<!--languages known-->
 <label>Language Known:</label>
 <br><br>
 &nbsp;
 <input type="checkbox"name="lang" id="English">
 &nbsp;
 <span id="English">English</span>
-&nbsp;
+<br>
 <input type="checkbox" name="lang" id="Hindi">
 &nbsp;
 <span id="Hindi">Hindi</span>
+<br>
 <input type="checkbox"name="lang" id="Telugu">
-&nbsp;
 <span id="Telugu">Telugu</span>
-&nbsp;
+<br>
 <input type="checkbox"name="lang" id="Tamil">
-&nbsp;
 <span id="Tamil">Tamil</span>
 &nbsp;
-<br> <br><br>
+<br><br>
 <input type="Submit" value="Submit" name="Submit" id="Submit">
 </form>
+</center>
+</body>
+</html>
+
+
 
 
